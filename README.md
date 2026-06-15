@@ -6,6 +6,8 @@
 **Challenge:** Brief 6, Direction A  
 **Qualifier Code:** GR26-65CEEFA7
 
+**Live Demo:** [https://cableguard-ai-sable.vercel.app](https://cableguard-ai-sable.vercel.app)
+
 ## What It Is
 
 CableGuard AI is an AI-powered municipal decision-support simulator that answers one question:
