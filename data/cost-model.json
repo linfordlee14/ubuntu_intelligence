@@ -1,0 +1,24 @@
+{
+  "modelVersion": "1.0.0",
+  "lastUpdated": "2026-06-14",
+  "parameters": {
+    "avgIncidentCost": 200000,
+    "incidentsPerYear": 47,
+    "outrageDaysPerIncident": 3,
+    "householdsAffectedPerIncident": 300,
+    "cableGuardNodeCost": 1200,
+    "detectionReductionRate": 0.65,
+    "falsePositiveRate": 0.12,
+    "patrolCostPerDispatch": 500,
+    "annualMaintenanceCostPerNode": 600,
+    "compoundingRate": 0.08,
+    "projectionYears": 5
+  },
+  "assumptions": [
+    "Incident costs include cable replacement, labor, equipment, and emergency response — estimated at R200,000 per incident based on BCMM 2024 maintenance reports.",
+    "The 8% annual compounding rate reflects projected growth in organized cable theft activity, informed by SAPS crime statistics trends (2020-2025).",
+    "Detection reduction rate of 65% is based on pilot covert sensor deployments in similar municipalities (eThekwini, Mangaung) where early detection prevented theft completion.",
+    "False positive rate of 12% accounts for environmental triggers (animals, weather, maintenance activity) and is consistent with industry benchmarks for vibration-based sensors.",
+    "Households affected per incident (300) is derived from BCMM infrastructure maps showing average downstream connections per cable segment in Qonce."
+  ]
+}

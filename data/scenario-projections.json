@@ -1,0 +1,62 @@
+{
+  "modelVersion": "1.0.0",
+  "generatedAt": "2026-06-14",
+  "parameters": {
+    "avgIncidentCost": 200000,
+    "incidentsPerYear": 47,
+    "compoundingRate": 0.08,
+    "detectionReductionRate": 0.65,
+    "cableGuardNodeCost": 1200,
+    "annualMaintenanceCostPerNode": 600,
+    "assumedBudget": 5000000,
+    "assumedNodeCount": 4166
+  },
+  "scenarios": {
+    "do-nothing": {
+      "scenario": "do-nothing",
+      "description": "No intervention — costs compound at 8% annually due to organized crime growth",
+      "years": [1, 2, 3, 4, 5],
+      "yearlyCost": [10152000, 10964160, 11841293, 12788596, 13811684],
+      "cumulativeCost": [10152000, 21116160, 32957453, 45746049, 59557733],
+      "incidentsPerYear": [47, 47, 47, 47, 47],
+      "incidentsAvoided": [0, 0, 0, 0, 0],
+      "outrageDays": [141, 141, 141, 141, 141],
+      "householdsProtected": [0, 0, 0, 0, 0],
+      "roi": 0
+    },
+    "delay-3-years": {
+      "scenario": "delay-3-years",
+      "description": "No action for 3 years, then invest in CableGuard AI with 65% incident reduction from year 4",
+      "years": [1, 2, 3, 4, 5],
+      "yearlyCost": [10152000, 10964160, 11841293, 6967497, 7523096],
+      "cumulativeCost": [10152000, 21116160, 32957453, 39924950, 47448046],
+      "incidentsPerYear": [47, 47, 47, 16, 16],
+      "incidentsAvoided": [0, 0, 0, 31, 31],
+      "outrageDays": [141, 141, 141, 48, 48],
+      "householdsProtected": [0, 0, 0, 9300, 9300],
+      "roi": 0.45
+    },
+    "invest-now": {
+      "scenario": "invest-now",
+      "description": "Deploy CableGuard AI immediately — 65% incident reduction from year 1, node and maintenance costs included",
+      "years": [1, 2, 3, 4, 5],
+      "yearlyCost": [7549997, 6202296, 6698680, 7234574, 7813540],
+      "cumulativeCost": [7549997, 13752293, 20450973, 27685547, 35499087],
+      "incidentsPerYear": [16, 16, 16, 16, 16],
+      "incidentsAvoided": [31, 31, 31, 31, 31],
+      "outrageDays": [48, 48, 48, 48, 48],
+      "householdsProtected": [9300, 9300, 9300, 9300, 9300],
+      "roi": 1.28
+    }
+  },
+  "comparison": {
+    "totalCostDoNothing5yr": 59557733,
+    "totalCostDelay5yr": 47448046,
+    "totalCostInvestNow5yr": 35499087,
+    "savingsInvestVsNothing": 24058646,
+    "savingsInvestVsDelay": 11948959,
+    "additionalIncidentsAvoided": 155,
+    "additionalHouseholdsProtected": 46500,
+    "breakEvenYear": 2
+  }
+}

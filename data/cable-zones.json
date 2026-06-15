@@ -1,0 +1,112 @@
+[
+  {
+    "id": "zone-01",
+    "name": "CBD North",
+    "description": "Central business district north corridor — high-density commercial and government buildings",
+    "cableLengthKm": 12.4,
+    "incidentFrequency": 8,
+    "criticalityScore": 10,
+    "coordinates": { "lat": -32.8795, "lng": 27.3925 },
+    "populationServed": 15200,
+    "lastIncidentDate": "2025-11-28"
+  },
+  {
+    "id": "zone-02",
+    "name": "CBD South",
+    "description": "Central business district south — retail, transport hub, and residential mix",
+    "cableLengthKm": 9.8,
+    "incidentFrequency": 6,
+    "criticalityScore": 8,
+    "coordinates": { "lat": -32.8855, "lng": 27.3910 },
+    "populationServed": 11800,
+    "lastIncidentDate": "2025-10-14"
+  },
+  {
+    "id": "zone-03",
+    "name": "Breidbach Industrial",
+    "description": "Industrial zone with manufacturing plants and warehouse facilities",
+    "cableLengthKm": 7.2,
+    "incidentFrequency": 5,
+    "criticalityScore": 7,
+    "coordinates": { "lat": -32.8680, "lng": 27.4050 },
+    "populationServed": 3400,
+    "lastIncidentDate": "2025-12-02"
+  },
+  {
+    "id": "zone-04",
+    "name": "Phakamisa Township",
+    "description": "Residential township — dense housing with limited alternative infrastructure",
+    "cableLengthKm": 15.6,
+    "incidentFrequency": 7,
+    "criticalityScore": 9,
+    "coordinates": { "lat": -32.8950, "lng": 27.3780 },
+    "populationServed": 28500,
+    "lastIncidentDate": "2025-11-15"
+  },
+  {
+    "id": "zone-05",
+    "name": "Mngqesha Rural",
+    "description": "Peri-urban rural area with long cable runs and sparse patrol coverage",
+    "cableLengthKm": 22.1,
+    "incidentFrequency": 4,
+    "criticalityScore": 6,
+    "coordinates": { "lat": -32.8620, "lng": 27.4180 },
+    "populationServed": 6700,
+    "lastIncidentDate": "2025-09-20"
+  },
+  {
+    "id": "zone-06",
+    "name": "King William's Town East",
+    "description": "Mixed residential and commercial area east of the Buffalo River",
+    "cableLengthKm": 11.3,
+    "incidentFrequency": 5,
+    "criticalityScore": 7,
+    "coordinates": { "lat": -32.8830, "lng": 27.4020 },
+    "populationServed": 14100,
+    "lastIncidentDate": "2025-10-30"
+  },
+  {
+    "id": "zone-07",
+    "name": "Bhisho Government Precinct",
+    "description": "Provincial government buildings and administrative zone — high security priority",
+    "cableLengthKm": 5.8,
+    "incidentFrequency": 2,
+    "criticalityScore": 8,
+    "coordinates": { "lat": -32.8500, "lng": 27.3850 },
+    "populationServed": 4200,
+    "lastIncidentDate": "2025-08-11"
+  },
+  {
+    "id": "zone-08",
+    "name": "Ginsberg Residential",
+    "description": "Established residential suburb with aging infrastructure",
+    "cableLengthKm": 8.9,
+    "incidentFrequency": 4,
+    "criticalityScore": 5,
+    "coordinates": { "lat": -32.8920, "lng": 27.3650 },
+    "populationServed": 9800,
+    "lastIncidentDate": "2025-11-03"
+  },
+  {
+    "id": "zone-09",
+    "name": "Scenery Park",
+    "description": "Newer residential development with underground cable network",
+    "cableLengthKm": 6.5,
+    "incidentFrequency": 3,
+    "criticalityScore": 4,
+    "coordinates": { "lat": -32.8700, "lng": 27.3520 },
+    "populationServed": 7600,
+    "lastIncidentDate": "2025-07-22"
+  },
+  {
+    "id": "zone-10",
+    "name": "Zwelitsha Corridor",
+    "description": "Transit corridor connecting townships — critical trunk cable route",
+    "cableLengthKm": 18.7,
+    "incidentFrequency": 3,
+    "criticalityScore": 7,
+    "coordinates": { "lat": -32.9010, "lng": 27.3700 },
+    "populationServed": 12300,
+    "lastIncidentDate": "2025-12-08"
+  }
+]
