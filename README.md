@@ -4,7 +4,6 @@
 **Hackathon:** USAII Global AI Hackathon 2026  
 **Track:** Graduate — AI for Systems & Society  
 **Challenge:** Brief 6, Direction A  
-**Qualifier Code:** GR26-65CEEFA7
 
 **Live Demo:** [https://cableguard-ai-sable.vercel.app](https://cableguard-ai-sable.vercel.app)
 
